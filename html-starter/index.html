@@ -3,43 +3,47 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Asal Naderi, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asal Naderi">
     <meta name="description" content="The official website for the my Curriculum Vitae">
     <title>Asal Naderi CV</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="/html-training/html-starter/favicon.ico">
+    <link rel="stylesheet" href="/html-training/html-starter/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Junior Web Developer</h1>
-        <nav>
-            <ul>
+    <header class="header">
+        <h1 class="header__h1">Junior Web Developer</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
                 <li>
-                    <a href="#about">About<abbr title="Asal Naderi"> Me </abbr></a>
+                    <a href="/html-training/html-starter/cv.html">Cover Letter</a>
                 </li>
                 <li>
-                    <a href="cl.html">My Cover Letter</a>
+                    <a href="/html-training/html-starter/cv.html">CV</a>
                 </li>
                 <li>
-                    <a href="cv.html">My CV</a>
+                    <a href="/html-training/html-starter/contact.html">Contact Me</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact Me</a>
+                    <a href="/html-training/html-starter/about.html">About<abbr title="Asal Naderi"> Me </abbr></a>
                 </li>
             </ul>
         </nav>
+    </header>
+    <section class="hero">
+        <h2 class="heroo__h2"> Welcome!</h2>
         <figure>
-            <img src="image1.jpeg" alt="This Is Me" title=" I Love Web Developing" width="300" height="300">
-            <figcaption>
+            <img src="/html-training/html-starter/img/image1.jpeg" alt="This Is Me" title=" I Love Web Developing"
+                width="400" height="400">
+            <figcaption class="offscreen">
                 This Is Me, Asal Naderi.
             </figcaption>
         </figure>
-    </header>
-    <hr>
+    </section>
     <main>
         <article id="about">
-            <h2>About <abbr title="Asal Naderi">Personal Summary</abbr></h2>
+            <h2><abbr title="Asal Naderi">Personal Summary</abbr></h2>
             <p>
                 <abbr title="Personal Summary">I am a junior web developer passionate about creating intuitive and
                     visually appealing digital
@@ -48,7 +52,7 @@
                     dynamicteam to build innovative web solutions.<br><br>
                     I have a track record of quickly adapting to new applications and solutions, and I am currently
                     focused on certifications and courses in <strong>HTML/CSS/JS</strong>, Python, ITIL4, Bash
-                    scripting, Linux, and GitHub.</abb>
+                    scripting, Linux, and GitHub.</abbr>
             </p>
             <aside>
                 <h3>CV Trivia</h3>
@@ -56,65 +60,15 @@
                     <summary>when I start to learn IT?</summary>
                     <p> I have moved to UK 12th of july 2024, after that I started to learn some related and basic
                         courses such as ITIL4, Python and ... But I have started to study HTML/SCC from <time
-                            datetime=december>2024</time></p>
+                            datetime="2024-12-01">2024</time></p>
                 </details>
             </aside>
         </article>
         <hr>
-        <article id="academic">
-            <h2>Academic Education</h2>
-            <table>
-                <caption> Academic Education </caption>
-                <thead>
-                    <tr>
-                        <th>Year</th>
-                        <th scope="col">Topic</th>
-                        <th scope="col">University</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">
-                            2003_2005
-                        </th>
-                        <td>Diploma</td>
-                        <td>Azad Islamic University of Iran</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            2013_2015
-                        </th>
-                        <td>Bachelor's degree</td>
-                        <td>The University of Bologna.</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            2018_2020
-                        </th>
-                        <td>Master's degree</td>
-                        <td>Azad Islamic University of Iran</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            2021_2023
-                        </th>
-                        <td>Master's degree</td>
-                        <td>The University of Bologna.</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">
-                            These are just a part of my academic educations 😊😊😊
-                        </td>
-                    </tr>
-                </tfoot>
-            </table>
-            <br>
-            <p>
-                <a href="#">Back To Top</a>
-            </p>
-        </article>
+        <p>
+            <a href="#">Back To Top</a>
+        </p>
+
     </main>
     <hr>
     <footer>

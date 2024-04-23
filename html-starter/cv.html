@@ -3,40 +3,45 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Asal Naderi, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asal Naderi">
     <meta name="description" content="The official website for the my Curriculum Vitae">
     <title>Asal Naderi CV</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="/html-training/html-starter/favicon.ico">
+    <link rel="stylesheet" href="/html-training/html-starter/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Lets know more about me</h1>
-        <nav>
-            <ul>
+    <header class="header">
+        <h1 class="header__h1">Lets know more about me</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
                 <li>
-                    <a href="cv.html">My CV</a>
+                    <a href="/html-training/html-starter/index.html">Home</a>
                 </li>
                 <li>
-                    <a href="../HTML/">Home</abbr></a>
+                    <a href="/html-training/html-starter/cl.html">Cover Letter</a>
                 </li>
                 <li>
-                    <a href="../HTML/">My Cover Letter</a>
+                    <a href="/html-training/html-starter/contact.html">Contact Me</a>
                 </li>
                 <li>
-                    <a href="../HTML/">Contact Me</a>
+                    <a href="/html-training/html-starter/about.html">About</a>
                 </li>
             </ul>
         </nav>
+
+    </header>
+    <div class="hero">
         <figure>
-            <img src="image1.jpeg" alt="This Is Me" title=" I Love Web Developing" width="300" height="300">
-            <figcaption>
+            <img src="/html-training/html-starter/img/image-3.jpeg" alt="I am injuying this job"
+                title=" I am injuying this job" width="600" height="500">
+            <figcaption class="offscreen">
                 This Is Me, Asal Naderi.
             </figcaption>
         </figure>
-    </header>
-    <hr>
+    </div>
+
     <main>
         <p>
             This is my CV details
@@ -54,6 +59,59 @@
             </ul>
         </section>
         <hr>
+        <div>
+            <article id="academic">
+                <h2>Academic Education</h2>
+                <table>
+                    <caption> Academic Education </caption>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th scope="col">Topic</th>
+                            <th scope="col">University</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                2003_2005
+                            </th>
+                            <td>Diploma</td>
+                            <td>Azad Islamic University of Iran</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                2013_2015
+                            </th>
+                            <td>Bachelor's degree</td>
+                            <td>The University of Bologna.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                2018_2020
+                            </th>
+                            <td>Master's degree</td>
+                            <td>Azad Islamic University of Iran</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                2021_2023
+                            </th>
+                            <td>Master's degree</td>
+                            <td>The University of Bologna.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                These are just a part of my academic educations 😊😊😊
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <br>
+            </article>
+        </div>
         <section>
             <h2>Key Skills and Competencies</h2>
             <ul>
@@ -65,10 +123,14 @@
                 <li> Team Leadership and Collaboration.</li>
                 <li> Continuous Learner and Technologically Savvy.</li>
                 <li> Proficient in Office Software (Word, PowerPoint, Excel).</li>
-                <li>Language</li>
-                <dd>- English (IELTS 6)</dd>
-                <dd>- Italian (A1)</dd>
-                <dd>- Native Language: Farsi</dd>
+                <li>
+                    <dl>
+                        <dt>Language</dt>
+                        <dd>- English (IELTS 6)</dd>
+                        <dd>- Italian (A1)</dd>
+                        <dd>- Native Language: Farsi</dd>
+                    </dl>
+                </li>
             </ul>
         </section>
         <hr>
@@ -126,7 +188,7 @@
         <hr>
         <section>
             <h2>Achievements</h2>
-            <ul type="square">
+            <ul class="square">
                 <li>Second place Championship in the University Handball League 2005</li>
                 <li>First place Championship in the University Handball League 2006</li>
                 <li>Third place Championship in the University Squash League 2007</li>
