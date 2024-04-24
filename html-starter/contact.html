@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asal Naderi,">
+    <meta name="description" content="Contact Information">
+    <title>Contact Me</title>
+    <link rel="icon" href="/html-training/html-starter/favicon.ico">
+    <link rel="stylesheet" href="/html-training/html-starter/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Contact Me</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/html-training/html-starter/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/html-training/html-starter/cl.html">Cover Letter</a>
+                </li>
+                <li>
+                    <a href="/html-training/html-starter/cv.html">CV</a>
+                </li>
+                <li>
+                    <a href="/html-training/html-starter/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="hero">
+        <figure>
+            <img src="/html-training/html-starter/img/python.jpeg" alt="This Is Just a temp image"
+                title=" I Love Web Developing" width="600" height="500">
+            <figcaption class="offscreen">
+                This Is Just a picture and i will change it later....
+            </figcaption>
+        </figure>
+    </div>
+    <main>
+        <section>
+            <h2> My contact form</h2>
+
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend> I'd really like to hear from you...</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required
+                            autofocus>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="your email" autocomplete="on"
+                            required>
+                    </p>
+                    <p>
+                        <label for="message">your message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message"
+                            autocomplete="on"></textarea>
+                    </p>
+                </fieldset>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+        <section>
+            <h2>My location</h2>
+            <address>
+                95 mile end road<br>
+                Colchester<br>
+                UK<br>
+                CO4 5BU
+                <br><br>
+                Phone: <a href="tel:+447751-020-774">+44 7751 020 774</a>
+            </address>
+            <br>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Asal Naderi Curriculum Vitae</p>
+    </footer>
+</body>
+
+</html>
