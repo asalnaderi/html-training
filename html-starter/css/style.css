@@ -198,4 +198,58 @@ a:active {
     }
 }
 
+/* \\ FOOTER */
 
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+}
+
+
+/* \\ MAIN */
+
+.main {
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+}
+
+.main__section {
+    scroll-margin-top: 6.5rem;
+    margin: var(--MARGIN);
+}
+
+.location {
+    margin-top: 1em;
+    margin-left: 1rem;
+    min-height: calc(100vh - 20rem);
+}
+
+.main__section:first-child {
+    margin-top: 1em;
+    margin-left: 0.4rem;
+}
+.main__section:nth-child(2){
+
+}
+
+/* \\ About */
+
+.about__trivia {
+margin: var(--MARGIN);
+}
+
+.about__trivia-answer {
+    margin-top: 1rem;
+}
+
+/* \\ CONTACT */
+.contact {
+
+}
+
+.location {
+
+}
