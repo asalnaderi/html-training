@@ -13,7 +13,7 @@
 
 <body>
     <header class="header">
-        <h1 class="header__h1">Lets know more about me</h1>
+        <h1 class="header__h1">Junior Web Developer</h1>
         <nav class="header__nav">
             <ul class="header__ul">
                 <li>
@@ -44,8 +44,8 @@
         <p>
             This is my CV details
         </p>
-        <section class="main__section">
-            <h2>Certifications and Qualifications</h2>
+        <section id=cv class="main__section cv">
+            <h2 class="cv__h2">Certifications and Qualifications</h2>
             <ul>
                 <li> <strong> 2009 </strong>Platform Diving Coach License, Obtained.</li>
                 <li> <strong> 2009 </strong>Swimming Coach License, Obtained.</li>
@@ -58,56 +58,56 @@
         </section>
         <hr>
         <div>
-            <section class="main__section">
-                <h2>Academic Education</h2>
-                <table>
-                    <caption> Academic Education </caption>
+            <section class="main__section cv">
+                <h2 class="cv__h2">Academic Education</h2>
+                <table class="cv__container">
+                    <caption class="offscreen"> Academic Education </caption>
                     <thead>
                         <tr>
-                            <th>Year</th>
-                            <th scope="col">Topic</th>
-                            <th scope="col">University</th>
+                            <th class="cv_header" scope="col">Year</th>
+                            <th class="cv_header" scope="col">Topic</th>
+                            <th class="cv_header" scope="col">University</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row">
+                            <th class="cv_header" scope="row">
                                 2003_2005
                             </th>
-                            <td>Diploma</td>
-                            <td>Azad Islamic University of Iran</td>
+                            <td class="cv__item">Diploma</td>
+                            <td class="cv__item">Azad Islamic University of Iran</td>
                         </tr>
                         <tr>
-                            <th scope="row">
+                            <th class="cv_header" scope="row">
                                 2013_2015
                             </th>
-                            <td>Bachelor's degree</td>
-                            <td>The University of Bologna.</td>
+                            <td class="cv__item">Bachelor's degree</td>
+                            <td class="cv__item">The University of Bologna.</td>
                         </tr>
                         <tr>
-                            <th scope="row">
+                            <th class="cv_header" scope="row">
                                 2018_2020
                             </th>
-                            <td>Master's degree</td>
-                            <td>Azad Islamic University of Iran</td>
+                            <td class="cv__item">Master's degree</td>
+                            <td class="cv__item">Azad Islamic University of Iran</td>
                         </tr>
                         <tr>
-                            <th scope="row">
+                            <th class="cv_header" scope="row">
                                 2021_2023
                             </th>
-                            <td>Master's degree</td>
-                            <td>The University of Bologna.</td>
+                            <td class="cv__item">Master's degree</td>
+                            <td class="cv__item">The University of Bologna.</td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="3">
+                            <td class="cv__item__cap" colspan="3">
                                 These are just a part of my academic educations 😊😊😊
                             </td>
                         </tr>
                     </tfoot>
                 </table>
-                <br>
+                <p class="center"
             </section>
         </div>
         <section class="main__section">
