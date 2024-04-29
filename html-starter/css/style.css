@@ -4,7 +4,7 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 img {
@@ -37,9 +37,39 @@ textarea {
     --HIGHLIGHT-COLOR: #f7b731;
     --HEADER-COLOR: whitesmoke;
     --ANIMATION-BG: #e4d5b7;
-    --SHADOW-COLOR: rgb(70,72,78);      
+    --SHADOW-COLOR: rgb(70, 72, 78);
 
 }
+
+#banner {
+    background: linear-gradient(rgba(0, 0, 0.2, 0.2), #6B9E99), url(../img/Dev.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.banner-text {
+    text-align: center;
+    color: var(--HEADER-COLOR);
+    padding: 250px;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+}
+
+.banner-text p {
+    font-size: 40px;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+}
+.banner-btn {
+    
+}
+
+
 /* GENERAL STYLES */
 html {
     scroll-behavior: smooth;
@@ -47,6 +77,7 @@ html {
     font-family: var(--FF);
     background-color: var(--BGCOLOR);
 }
+
 body {
     min-height: 100vh;
     display: flex;
@@ -58,6 +89,7 @@ header {
     color: var(--HEADER-COLOR);
     font-size: 2rem;
 }
+
 .header__h1 {
     font-size: 4rem;
     position: sticky;
@@ -65,6 +97,7 @@ header {
     z-index: 1;
     text-align: center;
 }
+
 .header__ul {
     color: #6B9E99;
     list-style-type: none;
@@ -72,6 +105,7 @@ header {
     display: flex;
     flex-flow: row nowrap;
 }
+
 .hero {
     position: relative;
     background-color: var(--BGCOLOR);
@@ -79,10 +113,11 @@ header {
     padding: 50px;
     text-align: center;
 }
+
 .hero__h2 {
     background-color: var(--ANIMATION-BG);
     color: var(--BGCOLOR);
-    padding: 0.25em 0.5em;
+    padding: 0.55em 0.5em;
     border-radius: 15px;
     text-shadow: 2px 2px 5px var(--BORDER-COLOR);
     position: absolute;
@@ -97,18 +132,50 @@ header {
         transform: skew(0deg, -5deg) scaleY(0);
         opacity: 0;
     }
+
     80% {
         top: 30px;
         transform: skew(10deg, -5deg) scaleY(1.2);
         opacity: 1;
     }
+
     100% {
         top: 20px;
         transform: skew(-10deg, -5deg) scaleY(1);
         opacity: 1;
     }
 }
-    
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 400px;
+    margin: 0 auto;
+}
+
+.photo {
+    max-width: 80%;
+    max-height: 400px;
+}
+
+.about-me {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.15;
+}
+
+.developer {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+}
+
+
 
 /* GENERAL STYLES 
 html {
