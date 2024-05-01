@@ -13,9 +13,17 @@
 
 <body>
     <header class="header">
-        <h1 class="header__h1">Junior Web Developer</h1>
-        <nav class="header__nav">
-            <ul class="header__ul">
+        <h1>Junior Web Developer</h1>
+    </header>
+    <section id="banner">
+        <div class="banner-text">
+            <p>Asal Naderi</p>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
                 <li>
                     <a href="/html-training/html-starter/index.html">Home</a>
                 </li>
@@ -30,7 +38,32 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
+    <div id="menuBtn">
+        <img src="img/Menu.png" id="menu">
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var menu = document.getElementById(menu);
+        var sideNav = document.getElementById("sideNav");
+        var isOpen = false;
+    
+        
+        sideNav.style.right = "-160px";
+        menuBtn.onclick = function () {
+            if (!isOpen) {
+                sideNav.style.right = "0";
+                isOpen = true;
+                menu.src = "img/Close.png";
+                
+            } else {
+                sideNav.style.right = "-160px";
+                isOpen = false;
+            }
+        };
+    </script>
+    
+    
     <div class="hero">
         <figure>
             <img src="/html-training/html-starter/img/image-3.jpeg" alt="I am enjoying this job"
@@ -46,7 +79,8 @@
                 <li><strong>2009</strong> Platform Diving Coach License, Obtained.</li>
                 <li><strong>2009</strong> Swimming Coach License, Obtained.</li>
                 <li><strong>2011</strong> Technical Workshop Diploma in Hydrotherapy Training, Completed.</li>
-                <li><strong>2011</strong> Specialized Workshop in Equipment Use & Exercise Knowledge, Completed.</li>
+                <li><strong>2011</strong> Specialized Workshop in Equipment Use & Exercise Knowledge, Completed.
+                </li>
                 <li><strong>2014</strong> Lifeguard License (Master), Obtained.</li>
                 <li><strong>2016</strong> Specialized Workshop in TRX, Completed.</li>
                 <li><strong>2018</strong> Physical Activity in Frailty and Disabled Children, Completed.</li>
@@ -137,7 +171,8 @@
                 <li>
                     <strong>Freelance swim instructor</strong>
                     <ul>
-                        <li>Focused on working with individuals with disabilities, Down syndrome, and autism in Iran.</li>
+                        <li>Focused on working with individuals with disabilities, Down syndrome, and autism in
+                            Iran.</li>
                     </ul>
                 </li>
                 <li>
