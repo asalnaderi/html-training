@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Asal Naderi">
+    <meta name="description" content="The official website for the my Curriculum Vitae">
+    <title>Asal Naderi CV</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section id="banner">
+        <div class="banner-text">
+            <h1>Asal Naderi</h1>
+            <p>Junior Web Developer</p>
+            <div class="banner-btn">
+                <a href="#"><span></span>summary</a>
+                <a href="#"><span></span>About</a>
+            </div>
+        </div>
+        <div id="sidenav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#"> Skills </a></li>
+                    <li><a href="#">Certifications</a></li>
+                    <li><a href="#">Work Experience</a></li>
+                    <li><a href="#"> Achievements </a></li>
+                    <li><a href="#">Academic Education</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="img/menu.png"  alt="alternatetext" id="menu">
+        </div>
+
+
+        <!-- Features-->
+        <section id="feature">
+            <div class="titel-text">
+                <h1>Personal Summary</h1>
+                <p>Features</p>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>I am a junior web developer</h1>
+                    <p> passionate about creating intuitive and visually appealing digital experiences. My education and
+                        hands-on projects have equipped me with a solid foundation in web development technologies. I
+                        thrive in fast-paced environments and am eager to collaborate with a dynamic team to build
+                        innovative web solutions.<br><br>
+                        I have a track record of quickly adapting to new applications and solutions, and I am currently
+                        focused on certifications and courses in Python, ITIL4, Bash scripting, Linux, HTML, and GitHub.
+                    </p>
+                </div>
+                <div class="features-img">
+                    <img src="img/image1.jpeg" alt="alternatetext">
+                </div>
+
+            </div>
+        </section>
+        <hr>
+        <hr>
+        <!--Services-->
+        <section id="service">
+            <div class="titel-text">
+                <p>services</p>
+                <h1>write something down about youy self</h1>
+            </div>
+
+            <div class="service-box">
+                <div class="single-service">
+                    <img src="img/html-3d.png" alt="alternatetext">
+                    <div class="overlay">
+                    </div>
+                </div>
+                <div class=" service-desc">
+                    <h1>HTML</h1>
+                    <hr>
+                    <p>Bali is known for its elaborate, traditional dancing. The dancing is inspired by its Hindi
+                        beliefs. Most of the dancing portrays tales of good versus evil. To watch the dancing is a
+                        breathtaking experience.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="img/css-3d.png" alt="alternatetext">
+                <div class="overlay">
+                </div>
+                <div class=" service-desc">
+                    <h1>SCC</h1>
+                    <hr>
+                    <p>Bali is known for its elaborate, traditional dancing. The dancing is inspired by its Hindi
+                        beliefs. Most of the dancing portrays tales of good versus evil. To watch the dancing is a
+                        breathtaking experience.</p>
+                </div>
+            </div>
+            <div class="single-service">
+                <img src="img/javascript-3d.png" alt="alternatetext">
+                <div class="overlay">
+                </div>
+            </div>
+            <div class=" service-desc">
+                <h1>JavaScript</h1>
+                <hr>
+                <p>Bali is known for its elaborate, traditional dancing. The dancing is inspired by its Hindi
+                    beliefs. Most of the dancing portrays tales of good versus evil. To watch the dancing is a
+                    breathtaking experience.</p>
+            </div>
+            <div class="single-service">
+                <img src="img/php-3d.png" alt="alternatetext">
+                <div class="overlay">
+                </div>
+                <div class=" service-desc">
+                    <h1>PHP</h1>
+                    <hr>
+                    <p>Bali is known for its elaborate, traditional dancing. The dancing is inspired by its Hindi
+                        beliefs. Most of the dancing portrays tales of good versus evil. To watch the dancing is a
+                        breathtaking experience.</p>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var menu = document.getElementById("menu")
+            var sidenav = document.getElementById("sidenav")
+
+            sidenav.style.right = "-200px"
+            menuBtn.onclick = function () {
+                if (sidenav.style.right == "-200px") {
+                    sidenav.style.right = "0"
+                    menu.src = "img/close.png";
+                }
+                else {
+                    sidenav.style.right = "-200px"
+                    menu.src = "img/menu.png";
+                }
+            }
+
+        </script>
+</body>
+
+</html>

@@ -7,8 +7,8 @@
     <meta name="author" content="Asal Naderi">
     <meta name="description" content="The official website for the my Curriculum Vitae">
     <title>Asal Naderi CV</title>
-    <link rel="icon" href="/html-training/html-starter/favicon.ico">
-    <link rel="stylesheet" href="/html-training/html-starter/css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -25,26 +25,26 @@
         <nav>
             <ul>
                 <li>
-                    <a href="/html-training/html-starter/index.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="/html-training/html-starter/cv.html">My CV</a>
+                    <a href="cv.html">My CV</a>
                 </li>
                 <li>
-                    <a href="/html-training/html-starter/contact.html">Contact Me</a>
+                    <a href="contact.html">Contact Me</a>
                 </li>
                 <li>
-                    <a href="/html-training/html-starter/about.html">About</a>
+                    <a href="about.html">About</a>
                 </li>
             </ul>
         </nav>
     </div>
     <div id="menuBtn">
-        <img src="img/Menu.png" id="menu">
+        <img src="img/menu.png" id="menu">
     </div>
     <script>
         var menuBtn = document.getElementById("menuBtn");
-        var menu = document.getElementById(menu);
+        var menu = document.getElementById("menu");
         var sideNav = document.getElementById("sideNav");
         var isOpen = false;
     
@@ -54,11 +54,12 @@
             if (!isOpen) {
                 sideNav.style.right = "0";
                 isOpen = true;
-                menu.src = "img/Close.png";
+                menu.src = "img/close.png";
                 
             } else {
                 sideNav.style.right = "-160px";
                 isOpen = false;
+                menu.src = "img/menu.png"
             }
         };
     </script>
@@ -66,7 +67,7 @@
     
     <div class="hero">
         <figure>
-            <img src="/html-training/html-starter/img/image-3.jpeg" alt="I am enjoying this job"
+            <img src="img/Image-2.jpeg" alt="I am enjoying this job"
                 title="I am enjoying this job" width="800" height="400">
             <figcaption>This Is Me, Asal Naderi.</figcaption>
         </figure>
