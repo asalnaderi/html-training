@@ -167,7 +167,7 @@ nav ul li a{
     position: relative;
 }
 .single-service img{
-    width: 70%;
+    width: 90%;
     border-radius: 7%;
    
 }
@@ -178,10 +178,73 @@ nav ul li a{
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(132, 70, 70, 0.25),#0A3033);
+    background: linear-gradient(rgba(42, 31, 31, 0.35),#031e20);
     opacity: 0;
     transition: 1s;
 }
 .single-service:hover .overlay{
     opacity: 1;
+}
+.service-desc{
+   width: 80%;
+   position: absolute;
+   bottom: 0%;
+   left: 50%;
+   transform: translateX(-50%); 
+   opacity: 0;
+   transition: 1s;
+}
+.single-service:hover .service-desc{
+    bottom: 45%;
+    opacity: 1;
+}
+hr{
+    background: white;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.service-desc p{
+    font-size: 14px;
+}
+
+/*--testimonial--*/
+
+#testimonial{
+    width: 100%;
+    padding: 70px 0;
+}
+.testimonial-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col{
+  flex-basis: 28%;  
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #031e20;
+  cursor: pointer;
+}
+.testimonial-col p{
+    font-size: 14px;
+}
+.testimonial-col h4{
+    text-align: center;
+}
+.user{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.user img{
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 7px;
+    align-items: center;
 }
