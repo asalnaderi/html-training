@@ -13,6 +13,7 @@
     background-position: center;
     border-radius: 30px;
     height: 50vh;
+    padding-bottom: 10px;
 
 }
 
@@ -82,7 +83,7 @@
 
 .hero__h2 {
     font-size: 200%;
-    background-color: #c2cdce;
+    background-color: beige;
     color: #0A3033;
     padding: 0.55em 0.5em;
     border-radius: 15px;
@@ -120,7 +121,7 @@
     position: fixed;
     right: -200;
     top: 0;
-    background: #c2cdce;
+    background: beige;
     z-index: 2;
     transition: 0.7s;
 }
@@ -138,7 +139,7 @@ nav ul li a {
 #menuBtn {
     width: 50px;
     height: 50px;
-    background: #c2cdce;
+    background: beige;
     text-align: center;
     position: fixed;
     right: 25px;
@@ -157,8 +158,9 @@ nav ul li a {
 /*--Features--*/
 
 #feature {
-    background-color: beige;
     width: 100%;
+    padding-top: 20px;
+    background: beige;
     padding-bottom: 10px;
     border-radius: 30px;
 }
@@ -171,7 +173,7 @@ nav ul li a {
 
 .titel-text p {
     margin: auto;
-    font-size: 20px;
+    font-size: 180px;
     font-weight: bold;
     color: #0A3033;
     position: relative;
@@ -222,7 +224,7 @@ nav ul li a {
 /*--work experience--*/
 #service {
     width: 100%;
-    padding-top: 10px;
+    padding-top: 20px;
     background: beige;
     border-radius: 30px;
 }
