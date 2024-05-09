@@ -151,6 +151,7 @@ nav ul li a {
 #menuBtn img {
     width: 50px;
     margin-top: 3px;
+    margin-bottom: 10px;
 }
 
 /*--Features--*/
@@ -158,7 +159,7 @@ nav ul li a {
 #feature {
     background-color: beige;
     width: 100%;
-    padding: 70px 0;
+    padding-bottom: 10px;
     border-radius: 30px;
 }
 
@@ -201,7 +202,7 @@ nav ul li a {
 }
 
 .features-img img {
-    width: 70%;
+    width: 50%;
     border-radius: 20px;
 }
 
@@ -221,7 +222,7 @@ nav ul li a {
 /*--work experience--*/
 #service {
     width: 100%;
-    padding: 50px 0;
+    padding-top: 10px;
     background: beige;
     border-radius: 30px;
 }
@@ -292,9 +293,12 @@ hr {
 /*--certification--*/
 
 #testimonial {
+    background-color: beige;
+    margin-bottom: 10px;
+    margin-top: 10px;
     width: 100%;
     height: 100%;
-    padding: 70px 0;
+    padding: 50px 0;
     border-radius: 30px;
 }
 
@@ -360,6 +364,7 @@ hr {
 }
 
 .flip-card {
+    padding-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -399,8 +404,8 @@ hr {
 }
 
 .flip-card-back {
-    background-color: #0A3033;
-    color: white;
+    background-color: #cde8d5;
+    color: #031e20;
     transform: rotateY(180deg);
     align-content: center;
 }
