@@ -156,6 +156,7 @@ nav ul li a {
 /*--Features--*/
 
 #feature {
+    background-color: beige;
     width: 100%;
     padding: 70px 0;
     border-radius: 30px;
@@ -164,7 +165,7 @@ nav ul li a {
 .titel-text {
     color: #0A3033;
     text-align: center;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 }
 
 .titel-text p {
@@ -217,11 +218,11 @@ nav ul li a {
     margin-bottom: 40px;
 }
 
-/*--about--*/
+/*--work experience--*/
 #service {
     width: 100%;
     padding: 50px 0;
-    background: #b1cbcd;
+    background: beige;
     border-radius: 30px;
 }
 
@@ -234,11 +235,11 @@ nav ul li a {
 }
 
 .single-service {
-    flex-basis: 48%;
+    flex-basis: 38%;
     text-align: center;
     border-radius: 20px;
     margin-bottom: 20px;
-    color: whitesmoke;
+    color: #0A3033;
     position: relative;
 }
 
@@ -246,12 +247,11 @@ nav ul li a {
     font-weight: bold;
     color: #0A3033;
     font-size: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .single-service img {
     width: 70%;
-    border-radius: 7%;
 }
 
 .single-service:hover {
@@ -259,7 +259,7 @@ nav ul li a {
 }
 
 .service-desc {
-    width: 80%;
+    width: 70%;
     position: absolute;
     bottom: 0%;
     left: 50%;
@@ -269,7 +269,7 @@ nav ul li a {
 }
 
 .single-service:hover .service-desc {
-    bottom: 45%;
+    bottom: 35%;
     opacity: 1;
 }
 
@@ -289,7 +289,7 @@ hr {
     font-size: 14px;
 }
 
-/*--testimonial--*/
+/*--certification--*/
 
 #testimonial {
     width: 100%;
@@ -308,6 +308,7 @@ hr {
 }
 
 .testimonial-col {
+    background-color: #cde8d5;
     min-height: 10rem;
     flex-basis: 28%;
     padding: 10px;
@@ -339,16 +340,22 @@ hr {
 }
 
 /* Achivement */
+#achievements {
+    background-color: beige;
+    border-radius: 20px;
+}
+
 #card {
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30px; 
+    gap: 30px;
 }
-#card p{
-    margin: 5px;
+
+#card p {
+    margin: 20px;
     line-height: 200%;
 }
 
@@ -392,17 +399,18 @@ hr {
 }
 
 .flip-card-back {
-    background-color:#0A3033;
+    background-color: #0A3033;
     color: white;
     transform: rotateY(180deg);
     align-content: center;
 }
+
 /* FOOTER */
 .footer {
     position: relative;
     bottom: 0px;
     background-color: beige;
-    color:#031e20;
+    color: #031e20;
     padding: 1rem;
     text-align: center;
     border-radius: 30px;
@@ -412,74 +420,56 @@ hr {
     margin: 0px;
     padding: 20px;
 }
-.back a{
-   height: 5px;
-   text-decoration: none;
-   color: #031e20;
-}
-.nowrap{
-    margin: 0px;padding-bottom: 10px;
-}
-/*--footer--*/
 
+.back a {
+    height: 5px;
+    text-decoration: none;
+    color: #031e20;
+}
+
+.nowrap {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+/*--contact--*/
 #contact {
-    background: #b1cbcd;
-    border-top: 2px solid #333;
-    border-radius: 30px;
-    margin-top: 50px;
-    padding-top: 20px;
+    padding: 30px;
+    background: beige;
+    border-radius: 20px;
 }
-#contact p{
-    margin-bottom: 50px;
-    margin-top: 0px;
+
+.loc {
+    margin: 10px;
 }
-.contact__h2 {
-    margin-bottom: 0px;
+
+.loc-h2 {
+    margin: 0;
 }
-.contact__fieldset {
+
+.fieldset {
     border: none;
 }
-.contact__p {
+
+.form-p {
     margin: 1em 0;
 }
-.contact__label {
+
+.form-lable {
     display: block;
-    font-weight: bold;
+    font: bold;
 }
 
-.contact__input,
-.contact__textarea {
-   padding: 0.5em; 
-   border-radius: 20px;
-   border-width: 2px;
-   width: 100%;
-}
-
-/*--
-.contact-row {
+.form-input,
+.form-textarea {
+    padding: 0.6em;
+    border-radius: 15px;
+    border-width: 2px;
     width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
-.contact-left,
-.contact-right {
-    flex-basis: 45%;
-    padding: 10px;
-    margin-bottom: 20px;
+.form-button {
+    padding: 0.6em;
+    border-radius: 15px;
+    background-color: beige;
 }
-
-.footer-right {
-    text-align: right;
-}
-
-.footer-row h1 {
-    margin: 10px 0;
-}
-
-.footer-row p {
-    line-height: 30px;
-}
---*/
