@@ -414,32 +414,6 @@ hr {
     align-content: center;
 }
 
-/* FOOTER */
-.footer {
-    position: relative;
-    bottom: 0px;
-    background-color: beige;
-    color: #031e20;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 30px;
-}
-
-.back {
-    margin: 0px;
-    padding: 20px;
-}
-
-.back a {
-    height: 5px;
-    text-decoration: none;
-    color: #031e20;
-}
-
-.nowrap {
-    margin: 0px;
-    padding-bottom: 10px;
-}
 
 /*--contact--*/
 #contact {
@@ -480,5 +454,39 @@ hr {
 .form-button {
     padding: 0.6em;
     border-radius: 15px;
+    background-color:  #bbb;
+}
+/* FOOTER */
+.footer {
+    margin: 10px;
+    position: relative;
+    bottom: 0px;
     background-color: beige;
+    color: #031e20;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.back {
+    margin: 10px;
+    padding: 0px;
+}
+
+.back a {
+    height: 5px;
+    text-decoration: none;
+    color: #031e20;
+    
+}
+
+.nowrap {
+    margin: 0px;
+    padding-bottom: 10px;
+}
+@media only screen and (max-width: 968px) {
+    .banner-text h1 {
+        font-size: 75px;
+    }
+
 }

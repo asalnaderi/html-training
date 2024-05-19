@@ -16,19 +16,20 @@
         rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
-<section id="hero">
-    <h2 class="hero__h2">Welcome!</h2>
-</section>
+
 
 <body>
+    <section id="hero">
+        <h2 class="hero__h2">Welcome!</h2>
+    </section>
     <header>
         <section id="banner">
             <div class="banner-text">
                 <h1>Junior Web Developer</h1>
                 <p>Asal Naderi</p>
                 <div class="banner-btn">
-                    <a href="#feature"><span></span>summary</a>
-                    <a href="#contact"><span></span>Contact</a>
+                    <a href="#feature"><span></span>Summary</a>
+                    <a href="#banner"><span></span>Home</a>
                 </div>
             </div>
         </section>
@@ -45,7 +46,7 @@
         </nav>
     </div>
     <div id="menuBtn">
-        <img src="img/menu.png" alt="alternatetext" id="menu">
+        <img src="img/menu.png" alt="Menu" id="menu">
     </div>
     <main>
         <!-- Features-->
@@ -210,7 +211,8 @@
                 <address>
                     95 mile end road,<br>
                     Colchester,<br>
-                    CO4 5BU.<br>
+                    CO4 5BU.
+                    </address><br>
                     <br>
                     <h2 class="loc-h2">contact number</h2>
                     Phone: <a href="tel:+447751-020-774">+44 7751 020 774</a>
@@ -225,7 +227,7 @@
                         <p class="form-p">
                             <label class="form-lable" for="name">Name:</label>
                             <input class="form-input" type="text" name="name" id="name" placeholder="your name"
-                                autocomplete="on" required autofocus>
+                                autocomplete="on" required>
                         </p>
                         <p class="form-p">
                             <label class="form-lable" for="email">Email:</label>
@@ -244,24 +246,6 @@
             </div>
         </section>
 
-        <script>
-            var menuBtn = document.getElementById("menuBtn")
-            var menu = document.getElementById("menu")
-            var sidenav = document.getElementById("sidenav")
-
-            sidenav.style.right = "-200px"
-            menuBtn.onclick = function () {
-                if (sidenav.style.right == "-200px") {
-                    sidenav.style.right = "0"
-                    menu.src = "img/close.png";
-                }
-                else {
-                    sidenav.style.right = "-200px"
-                    menu.src = "img/menu.png";
-                }
-            }
-
-        </script>
     </main>
     <footer class="footer">
         <section>
@@ -274,6 +258,24 @@
             <span class="nowrap">Asal Naderi Curriculum Vitae</span>
         </p>
     </footer>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var menu = document.getElementById("menu")
+        var sidenav = document.getElementById("sidenav")
+
+        sidenav.style.right = "-200px"
+        menuBtn.onclick = function () {
+            if (sidenav.style.right == "-200px") {
+                sidenav.style.right = "0"
+                menu.src = "img/close.png";
+            }
+            else {
+                sidenav.style.right = "-200px"
+                menu.src = "img/menu.png";
+            }
+        }
+
+    </script>
 </body>
 
 </html>
